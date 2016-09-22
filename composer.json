@@ -1,0 +1,15 @@
+{
+  "name": "ivan/test",
+  "minimum-stability": "dev",
+  "require": {
+    "interop/aura-router": "dev-master",
+    "interop/template-renderer": "dev-master",
+    "zendframework/zend-diactoros": "^1.2",
+    "eva/application": "dev-master",
+    "eva/container": "dev-master",
+    "league/plates": "^3.1"
+  },
+  "autoload": {
+    "psr-0": {"": "src/"}
+  }
+}
